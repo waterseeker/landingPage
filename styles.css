@@ -1,0 +1,25 @@
+.nav-stuff {
+    display: inline-block;
+}
+
+#header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url("./home_assets/O'Henry's-Hero.jpg");
+  text-align: center;
+  color: white;
+}
+
+#bottomPictures {
+  display: inline-block;
+}
+
+#scones {
+  background-image: url("./home_assets/scone.png")
+}
