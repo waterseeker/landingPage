@@ -1,25 +1,72 @@
-.nav-stuff {
-    display: inline-block;
-}
-
-#header {
-  position: relative;
-  width: 100%;
-  min-height: auto;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+nav {
+  background-image: url("images/O'Henry's-Hero.jpg");
   background-position: center;
-  background-image: url("./home_assets/O'Henry's-Hero.jpg");
-  text-align: center;
+  background-size: cover;
+  background-repeat: none;
+  height: 400px;
   color: white;
 }
-
-#bottomPictures {
-  display: inline-block;
+nav div > a {
+  color: white;
 }
-
-#scones {
-  background-image: url("./home_assets/scone.png")
+nav .navpic {
+  float: right;
+}
+nav .navpic #firstText {
+  text-align: center;
+  margin-top: 20px;
+}
+nav .navpic .secondText {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+nav .navpic #triangle {
+  display: block;
+  margin: auto;
+  height: 10px;
+  margin-top: 70px;
+}
+nav .navpic #logo {
+  display: block;
+  margin: auto;
+}
+nav .navpic .nav-item {
+  margin: 20px;
+}
+nav .navpic #links {
+  list-style: none;
+  float: left;
+}
+nav .navpic #links li {
+  display: inline;
+}
+nav .navpic .cart {
+  float: right;
+}
+.secondSection {
+  color: saddlebrown;
+  background-color: gray;
+  background-size: cover;
+  width: 100%;
+}
+.secondSection #divider {
+  height: 20px;
+}
+.secondSection #package {
+  height: 250px;
+  position: absolute;
+  top: 550px;
+  left: 500px;
+  z-index: 1;
+}
+.secondSection #mug {
+  height: 200px;
+  position: absolute;
+  top: 640px;
+  left: 475px;
+  z-index: 3;
+}
+.secondSection #header {
+  float: left;
 }

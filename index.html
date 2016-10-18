@@ -1,75 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Landing Page</title>
 </head>
 
-
 <body>
-	<!--navbar-->
-	<nav id ="header" class="navbar navbar-inverse">
-		<div class="container-fluid">
-			<ul class="list-of-stuff">
-				<li class="nav-stuff"> <img src="./home_assets/facebook-icon.png"> </li>
-				<li class="nav-stuff"> <img src="./home_assets/twitter-icon.png"> </li>
-				<li class="nav-stuff"><img src="./home_assets/instagram-icon.png"></li>
-				<li class="nav-stuff"><p>About</p></li>
-				<li class="nav-stuff"><p>Buy Online</p></li>
-				<li class="nav-stuff"><img src="./home_assets/oh-mark.png" alt=""></li>
-				<li class="nav-stuff"><p> Find Us</p></li>
-				<li class="nav-stuff"><p> Wholesale</p></li>
-				<li class="nav-stuff"><img src="./home_assets/header-cart-icon.png" alt=""></li>
-				<li class="nav-stuff"><p> Your Cart </p></li>
-			</ul>
-		</div>
-		<!--<ul class="nav navbar-nav">
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#">Page 1</a></li>
-				<li><a href="#">Page 2</a></li>
-				<li><a href="#">Page 3</a></li>
-			</ul>-->
-		</div>
-	</nav>
-	<div id="featured product">
-		<p> Featured Product </p>
-	</div>
-	<section id="glyph">
-		<img src="./home_assets/divider-pattern.png">
-	</section>
-<div id="bottomPictures" class="row">
-  <div id="scones" class="col-sm-4">.col-sm-3</div>
-  <div class="col-md-8">.col-sm-3</div>
-  <div class="col-md-8">.col-sm-3</div>
-  <div class="col-md-8">.col-sm-3</div>
-</div>
-	<!--footer-->
-	<nav class="navbar navbar-inverse">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-user"></span></button>
-			</div>
-			<ul class="nav navbar-nav">
-				<img src="./home_assets/logo-old.png" alt="">
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#">Page 1</a></li>
-				<li><a href="#">Page 2</a></li>
-				<li><a href="#">Page 3</a></li>
-			</ul>
-		</div>
-	</nav>
-</body>
+    <nav class="navbar">
+        <div class="nav navbar-nav">
+            <div class="container navpic">
+                <ul id="links">
+                    <li><a href="https://www.facebook.com/pages/OHenrys-Coffees/152837238069993?fref=ts"><img style="height: 20px" src="images/header-fb-icon.png"></li>
+                    <li><a href="https://twitter.com/ohenrys?lang=en"><img style="height: 20px" src="images/header-twitter-icon.png"></li>
+                    <li><a href="https://www.instagram.com/ohenrys/"><img style="height: 20px" src="images/header-insta-icon.png"></li>
+                </ul>
+                <a class="nav-item nav-link active" href="#">ABOUT</a>
+                <a class="nav-item nav-link" href="#">BUY ONLINE</a>
+                    <img style = "height: 50px;" src="images/oh-mark.png">
+                <a class="nav-item nav-link" href="#">FIND US</a>
+                <a class="nav-item nav-link" href="#">WHOLESALE</a>
+                <p class="cart">YOUR CART</p>
+                <img class="cart" style ="height: 20px;" src="images/header-cart-icon.png">
+            <img style="height: 100px" id="logo" src="images/hero-logo.png">
+            <p class="secondText">FINE COFFEE HOUSE<br>WHOLESALER & ROASTERY</p>
+            <img id="triangle" src="images/down-triangle.png">
+            </div>
+    </nav>
 
+    <div class="secondSection container">
+        <p>FEATURED PRODUCT</p>
+        <img id="divider" src="images/divider-pattern.png">
+        <h2 class="header">O'HENRY'S BREAKFAST BLEND</h2>
+        <H5 class="header">A bright & Crisp waker upper. An O'Henry's favorite.</H5>
+        <img id="package" src="images/package.png">
+        <img id="mug" src="images/mug.png">
+    </div>
+
+
+
+
+
+    <!--//links to jquery and bootstrap-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
 
 </html>
